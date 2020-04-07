@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+.nameContainer {
+  width: 100%;
+  background: cadetblue;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.name {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+
+.navContainer {
+  background: ghostwhite;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.selectedNav {
+  color: black;
+}
+
+.unselectedNav {
+  color: gray;
+}
+
+.divider {
+  background-color: gainsboro;
+  height: 3px;
+  margin-top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.portfolioHeader {
+  text-align: left;
+  color: cadetblue;
+  padding-top: 4%;
+  margin-left: 6%;
+}
+
+.portfolioDivider {
+  background-color: gainsboro;
+  height: 3px;
+  margin-top: 20px;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.imagesContainer {
+  margin-top: 30px;
+  background-color: ghostwhite;
+  margin-left: 6%;
+  margin-right: 6%;
+  clear: both;
+  position: relative;
+}
+
+.imageLabel {
+  position: absolute;
+  top: 240px;
+  height: 80px;
+  width: 94.5%;
+  background-color: cadetblue;
+}
+
+.imageLabelText {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  margin-top: 4%;
+}
+
+.footerDividerPortfolio {
+  height: 8px;
+  background-color: cadetblue;
+  margin-top: 25%;
+  width: 100%;
+}
+
+.footerMain {
+  height: 100px;
+  background-color: darkgrey;
+  text-align: center;
+}
+
+.img-fluid {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.footerText {
+  padding-top: 30px;
+  color: white;
+}
+/* Contact Page */
+
+@media screen and (min-width: 768px) {
+  .nameContainer {
+    width: 33.33%;
+    display: inline-block;
+  }
+
+  .navContainer {
+    width: 66%;
+    display: inline-block;
+    height: 75px;
+  }
+
+  .footerDivider {
+    margin-top: 60%;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .nameContainer {
+    width: 25%;
+    display: inline-block;
+    margin-left: 6%;
+  }
+
+  .navContainer {
+    width: 68%;
+    display: inline-block;
+    height: 100px;
+  }
+
+  .selectedNav {
+    float: right;
+  }
+
+  .unselectedNav {
+    color: gray;
+    float: right;
+  }
+
+  .aboutMeContainer {
+    height: 600px;
+    margin-left: 6%;
+    margin-right: 30%;
+    clear: both;
+    position: relative;
+  }
+
+  .img-fluid {
+    width: 300px;
+    float: left;
+  }
+
+  .aboutText {
+    float: left;
+    clear: both;
+  }
+
+  .footerDivider {
+    margin-top: 8%;
+  }
+}
