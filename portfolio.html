@@ -1,125 +1,111 @@
 <!-- Media Query Demo (check the CSS page) -->
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
 
-    <title>HTML</title>
+<head>
+  <meta charset="UTF-8" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="css/portfolioStyle.css" />
-  </head>
+  <title>HTML</title>
 
-  <body>
-    <div class="nameContainer">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/portfolioStyle.css" />
+</head>
+
+<body>
+  <div class="nameContainer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="name">Ben Salinaro</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navContainer">
+    <div class="container">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-2">
+          <a href="./index.html" class="unselectedNav">About</a>
+        </div>
+        <div class="col-2">
+          <a href="./portfolio.html" class="selectedNav">Portfolio</a>
+        </div>
+        <div class="col-2">
+          <a href="./contact.html" class="unselectedNav">Contact</a>
+        </div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <h2 class="portfolioHeader">Portfolio</h2>
+    <div class="portfolioDivider"></div>
+    <div class="imagesContainer">
+
+      <div class="card" id="weather-app">
+        <img class="card-img-top" src="./assets/weatherAppImage.png" alt="Weather App Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Weather App</h5>
+          <p class="card-text">A weather application that allows users to search for the current weather and 5-day
+            forecast for cities.</p>
+          <a href="https://salinb04.github.io/Weather-App/" target="_blank" class="btn btn-primary">View Weather App</a>
+        </div>
+      </div>
+
+      <div class="card" id="password-generator">
+        <img class="card-img-top" src="./Assets/passwordGeneratorImage.png" alt="Password Generator Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">Password Generator</h5>
+          <p class="card-text">This password generator allows users to choose the length of the password and whether or
+            not to include lowercase, uppercase, numeric, and/or special characters.</p>
+          <a href="https://salinb04.github.io/passwordGenerator" target="_blank" class="btn btn-primary">View Password
+            Generator</a>
+        </div>
+      </div>
+
+      <div class="card" id="checkin-app">
+        <img class="card-img-top" src="./Assets/checkInImage.png" alt="CheckIn App Screenshot">
+        <div class="card-body">
+          <h5 class="card-title">CheckIn</h5>
+          <p class="card-text">CheckIn is a wellness app that provides users with a task scheduler, a map and list of
+            nearest parks and nature trails, and random motivational quotes generated daily.</p>
+          <a href="https://salinb04.github.io/CheckIn/" target="_blank" class="btn btn-primary">View CheckIn App</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body" id="resume-github">
+          <h5 class="card-title">Resume and Github Link</h5>
+          <p class="card-text">To view more information about my experience, projects, and skills, my resume and github
+            profile link are available here.</p>
+          <a href="https://salinb04.github.io/" target="_blank" class="btn btn-primary">View Github Profile</a>
+          <a href="https://salinb04.github.io/" target="_blank" class="btn btn-primary">View Resume</a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footerDividerPortfolio"></div>
+    <div class=footerMain>
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="name">Ben Salinaro</h1>
+            <div class="footerText">
+              <h7>© Copyright Ben Salinaro</h1>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
+  </footer>
+</body>
 
-    <nav class="navContainer">
-      <div class="container">
-        <div class="row">
-          <div class="col-3"></div>
-          <div class="col-2">
-            <a href="./index.html" class="unselectedNav">About</a>
-          </div>
-          <div class="col-2">
-            <a href="./portfolio.html" class="selectedNav">Portfolio</a>
-          </div>
-          <div class="col-2">
-            <a href="./contact.html" class="unselectedNav">Contact</a>
-          </div>
-          <div class="col-3"></div>
-        </div>
-      </div>
-    </nav>
-
-    <main>
-      <h2 class="portfolioHeader">Portfolio</h2>
-      <div class="portfolioDivider"></div>
-        <div class="imagesContainer">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <figure class="figure">
-                  <img src="portfolioImg1.jpeg" class="figure-img1 img-fluid rounded" alt="me">
-                  <div class="imageLabel"><h4 class="imageLabelText">Word Guess</h4></div>
-                </figure>
-              </div>
-            </div>
-          </div>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <figure class="figure">
-                  <img src="portfolioImg2.jpeg" class="figure-img img-fluid rounded" alt="me">
-                  <div class="imageLabel"><h4 class="imageLabelText">RPG Game</h4></div>
-                </figure>
-              </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <figure class="figure">
-                  <img src="portfolioImg3.jpeg" class="figure-img img-fluid rounded" alt="me">
-                  <div class="imageLabel"><h4 class="imageLabelText">Trivia Game</h4></div>
-                </figure>
-              </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <figure class="figure">
-                  <img src="portfolioImg4.jpeg" class="figure-img img-fluid rounded" alt="me">
-                  <div class="imageLabel"><h4 class="imageLabelText">Info Widget</h4></div>
-                </figure>
-              </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <figure class="figure">
-                  <img src="portfolioImg4.jpeg" class="figure-img img-fluid rounded" alt="me">
-                  <div class="imageLabel"><h4 class="imageLabelText">Rock Paper Scissors</h4></div>
-                </figure>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </main>
-
-    <footer>
-      <div class="footerDividerPortfolio"></div>
-        <div class=footerMain>
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
-                <div class="footerText"><h7>© Copyright Ben Salinaro</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>

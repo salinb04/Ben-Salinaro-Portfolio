@@ -54,33 +54,31 @@
 
 .imagesContainer {
   margin-top: 30px;
-  background-color: ghostwhite;
   margin-left: 6%;
   margin-right: 6%;
-  clear: both;
-  position: relative;
 }
 
-.imageLabel {
-  position: absolute;
-  top: 240px;
-  height: 80px;
-  width: 94.5%;
-  background-color: cadetblue;
+.card {
+  margin-bottom: 30px;
+  width: 600px;
 }
 
-.imageLabelText {
-  text-align: center;
-  color: white;
-  font-size: 32px;
-  margin-top: 4%;
+#weather-app {
+  float: left;
+  margin-right: 52px;
+}
+
+#checkin-app {
+  float: left;
+  margin-right: 52px;
 }
 
 .footerDividerPortfolio {
   height: 8px;
   background-color: cadetblue;
-  margin-top: 25%;
+  margin-top: 10%;
   width: 100%;
+  display: inline-block;
 }
 
 .footerMain {
@@ -89,15 +87,11 @@
   text-align: center;
 }
 
-.img-fluid {
-  position: relative;
-  margin-bottom: 40px;
-}
-
 .footerText {
   padding-top: 30px;
   color: white;
 }
+
 /* Contact Page */
 
 @media screen and (min-width: 768px) {
@@ -137,24 +131,6 @@
   .unselectedNav {
     color: gray;
     float: right;
-  }
-
-  .aboutMeContainer {
-    height: 600px;
-    margin-left: 6%;
-    margin-right: 30%;
-    clear: both;
-    position: relative;
-  }
-
-  .img-fluid {
-    width: 300px;
-    float: left;
-  }
-
-  .aboutText {
-    float: left;
-    clear: both;
   }
 
   .footerDivider {
