@@ -29,14 +29,6 @@
   color: gray;
 }
 
-.divider {
-  background-color: gainsboro;
-  height: 3px;
-  margin-top: 20px;
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
 .portfolioHeader {
   text-align: left;
   color: cadetblue;
@@ -47,9 +39,8 @@
 .portfolioDivider {
   background-color: gainsboro;
   height: 3px;
-  margin-top: 20px;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .imagesContainer {
@@ -59,8 +50,13 @@
 }
 
 .card {
-  margin-bottom: 30px;
-  width: 600px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 #weather-app {
